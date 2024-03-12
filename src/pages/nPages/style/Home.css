@@ -1,0 +1,36 @@
+body{
+  padding:0;
+}
+
+.front-page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section {
+  display: block;
+}
+
+.image-section img {
+  display: block;
+  margin-top: -16px;
+  margin-left: -16px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: 686px;
+}
+
+
+.main-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.promotions h2 {
+  margin-bottom: 10px;
+}
+
+.promotions-list div {
+  margin-bottom: 10px; /* Optional: Add spacing between items */
+}
